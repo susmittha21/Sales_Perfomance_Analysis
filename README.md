@@ -5,7 +5,7 @@
 
 ## About the Project
 
-This project focuses on analyzing retail sales data from a Superstore to understand business performance . The goal is to identify profit drivers, loss-making areas, and operational inefficiencies using data analysis.
+This project focuses on analyzing retail sales data from a Superstore to understand business performance . The goal is to identify profit drivers, loss-making areas, and the trends using data analysis.
 
 The analysis follows an end-to-end data analytics workflow — starting from raw, unclean data and progressing through cleaning, exploration, insight generation, and business recommendations. 
 
@@ -18,8 +18,8 @@ Despite strong overall sales, the Superstore experiences inconsistent profitabil
 The objective of this analysis is to:
 
 * Identify areas where high sales do not translate into profit
-* Understand the impact of discounts, shipping modes, and customer segments on profitability
-* Time-series trend analysis and simple forecasting
+* Understand the impact of discounts,customer segments on profitability
+* Time-series trend analysis 
 * Provide data-driven recommendations to improve overall business performance
 
 ---
@@ -60,18 +60,18 @@ Two datasets are used:
 6. Customer Segment Analysis
 7. Regional Performance Analysis
 8. Shipping Mode Profitability
-9. Time-series trend analysis and simple forecasting
+9. Time-series trend analysis 
 
 ---
 
 ## Key Insights
 
-- Orders with discounts greater than 20% resulted in a total loss of ~$135,000, indicating excessive discounting significantly impacts profitability.
-- The top 5 loss-making products account for ~29% of total profit loss, showing that a small number of products disproportionately affect margins.
-- The overall profit margin across all orders is ~12.5%, which is relatively low compared to total sales volume.
-- When discounts are limited to below 15%, profit margin increases to ~28.9%, representing an improvement of ~16.4 percentage points.
+- Orders with discounts greater than 20% resulted in a total loss of ~$17,400, indicating excessive discounting significantly impacts profitability.
+- The top 5 loss-making products account for more than 50% of the total losses, meaning a small number of items cause most of the damage.
+- The overall profit margin across all orders is ~10%, which is relatively low compared to total sales volume.
+- Discounts above 20% leads to negative average profit, indicating aggressive discounting hurts profitability.
 - The Furniture category generates high sales but contributes heavily to overall losses, especially from specific sub-categories.
-- A small group of high-value customers contributes the majority of total profit, while low-value customers often receive higher discounts.
+
 
 ---
 
